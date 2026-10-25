@@ -30,6 +30,11 @@ This repo contains:
      are dependency-free; the **median package pulls in 195 packages** and
      `@backstage/cli` tops out at **1,355** total dependencies from 32
      direct ones — a textbook dependency black hole.
+   - The one unanalyzable package is its own finding:
+     `@backstage/plugin-api-docs-module-protoc-gen-doc` cannot be resolved
+     at all because a git-hosted dependency deep in its tree
+     (`git.gendocu.com`) serves an expired TLS certificate — transitive
+     supply-chain fragility in action.
 
 ## Research
 
