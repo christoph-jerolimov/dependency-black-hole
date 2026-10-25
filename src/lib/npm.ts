@@ -46,19 +46,29 @@ export async function analyzePublishedPackage(spec: string): Promise<PackageAnal
       join(dir, "package.json"),
       JSON.stringify({ name: "dependency-black-hole-probe", version: "0.0.0", private: true })
     );
-    await execFileAsync(
-      "npm",
-      [
-        "install",
-        spec,
-        "--package-lock-only",
-        "--ignore-scripts",
-        "--no-audit",
-        "--no-fund",
-        "--loglevel=error",
-      ],
-      { cwd: dir, timeout: 180_000, maxBuffer: 16 * 1024 * 1024 }
-    );
+    const install = (extraArgs: string[]) =>
+      execFileAsync(
+        "npm",
+        [
+          "install",
+          spec,
+          "--package-lock-only",
+          "--ignore-scripts",
+          "--no-audit",
+          "--no-fund",
+          "--loglevel=error",
+          ...extraArgs,
+        ],
+        { cwd: dir, timeout: 180_000, maxBuffer: 16 * 1024 * 1024 }
+      );
+    try {
+      await install([]);
+    } catch {
+      // Some packages have conflicting peer dependency ranges (ERESOLVE).
+      // Peers are not part of the counted dependency edges anyway, so
+      // retrying without the strict peer check gives the same counts.
+      await install(["--legacy-peer-deps"]);
+    }
     const analysis = analyzeLockfile(join(dir, "package-lock.json"));
     // The requested package is the root's single direct dependency; find its
     // top-level node (there is exactly one top-level instance of a name).
