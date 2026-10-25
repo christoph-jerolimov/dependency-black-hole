@@ -1,0 +1,902 @@
+[
+  {
+    "spec": "semver",
+    "name": "semver",
+    "version": "7.8.5",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "minimatch",
+    "name": "minimatch",
+    "version": "10.2.6",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 2
+  },
+  {
+    "spec": "debug",
+    "name": "debug",
+    "version": "4.4.3",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 1
+  },
+  {
+    "spec": "ansi-styles",
+    "name": "ansi-styles",
+    "version": "7.0.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "brace-expansion",
+    "name": "brace-expansion",
+    "version": "5.0.12",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 1
+  },
+  {
+    "spec": "lru-cache",
+    "name": "lru-cache",
+    "version": "11.5.3",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "ms",
+    "name": "ms",
+    "version": "2.1.3",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "picomatch",
+    "name": "picomatch",
+    "version": "4.0.7",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "commander",
+    "name": "commander",
+    "version": "15.0.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "string-width",
+    "name": "string-width",
+    "version": "8.3.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 2,
+    "transitive": 3
+  },
+  {
+    "spec": "strip-ansi",
+    "name": "strip-ansi",
+    "version": "7.2.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 1
+  },
+  {
+    "spec": "ansi-regex",
+    "name": "ansi-regex",
+    "version": "6.4.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "supports-color",
+    "name": "supports-color",
+    "version": "11.0.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "chalk",
+    "name": "chalk",
+    "version": "6.0.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "wrap-ansi",
+    "name": "wrap-ansi",
+    "version": "10.0.2",
+    "isRoot": false,
+    "dev": false,
+    "direct": 2,
+    "transitive": 5
+  },
+  {
+    "spec": "emoji-regex",
+    "name": "emoji-regex",
+    "version": "11.0.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "tslib",
+    "name": "tslib",
+    "version": "2.8.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "balanced-match",
+    "name": "balanced-match",
+    "version": "5.0.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "ajv",
+    "name": "ajv",
+    "version": "8.20.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 4,
+    "transitive": 4
+  },
+  {
+    "spec": "glob",
+    "name": "glob",
+    "version": "13.0.6",
+    "isRoot": false,
+    "dev": false,
+    "direct": 3,
+    "transitive": 6
+  },
+  {
+    "spec": "escape-string-regexp",
+    "name": "escape-string-regexp",
+    "version": "5.0.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "source-map",
+    "name": "source-map",
+    "version": "0.8.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "readable-stream",
+    "name": "readable-stream",
+    "version": "4.8.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 5,
+    "transitive": 9
+  },
+  {
+    "spec": "which",
+    "name": "which",
+    "version": "6.0.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 1
+  },
+  {
+    "spec": "zod",
+    "name": "zod",
+    "version": "4.6.7",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "color-name",
+    "name": "color-name",
+    "version": "2.1.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "p-limit",
+    "name": "p-limit",
+    "version": "7.3.3",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 1
+  },
+  {
+    "spec": "color-convert",
+    "name": "color-convert",
+    "version": "3.1.3",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 1
+  },
+  {
+    "spec": "safe-buffer",
+    "name": "safe-buffer",
+    "version": "5.2.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "find-up",
+    "name": "find-up",
+    "version": "8.0.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 2,
+    "transitive": 5
+  },
+  {
+    "spec": "yallist",
+    "name": "yallist",
+    "version": "5.0.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "locate-path",
+    "name": "locate-path",
+    "version": "8.0.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 3
+  },
+  {
+    "spec": "p-locate",
+    "name": "p-locate",
+    "version": "7.0.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 2
+  },
+  {
+    "spec": "postcss",
+    "name": "postcss",
+    "version": "8.5.31",
+    "isRoot": false,
+    "dev": false,
+    "direct": 3,
+    "transitive": 3
+  },
+  {
+    "spec": "isexe",
+    "name": "isexe",
+    "version": "4.0.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "typescript",
+    "name": "typescript",
+    "version": "7.0.2",
+    "isRoot": false,
+    "dev": false,
+    "direct": 20,
+    "transitive": 20
+  },
+  {
+    "spec": "has-flag",
+    "name": "has-flag",
+    "version": "5.0.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "signal-exit",
+    "name": "signal-exit",
+    "version": "4.1.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "mime-db",
+    "name": "mime-db",
+    "version": "1.54.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "js-yaml",
+    "name": "js-yaml",
+    "version": "5.5.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 1
+  },
+  {
+    "spec": "uuid",
+    "name": "uuid",
+    "version": "14.0.3",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "ws",
+    "name": "ws",
+    "version": "8.22.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "mime-types",
+    "name": "mime-types",
+    "version": "3.0.2",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 1
+  },
+  {
+    "spec": "nanoid",
+    "name": "nanoid",
+    "version": "6.0.2",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "yargs-parser",
+    "name": "yargs-parser",
+    "version": "22.0.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "yargs",
+    "name": "yargs",
+    "version": "18.2.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 6,
+    "transitive": 14
+  },
+  {
+    "spec": "argparse",
+    "name": "argparse",
+    "version": "3.0.4",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "is-fullwidth-code-point",
+    "name": "is-fullwidth-code-point",
+    "version": "5.1.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 1
+  },
+  {
+    "spec": "cross-spawn",
+    "name": "cross-spawn",
+    "version": "7.0.6",
+    "isRoot": false,
+    "dev": false,
+    "direct": 3,
+    "transitive": 5
+  },
+  {
+    "spec": "globals",
+    "name": "globals",
+    "version": "17.13.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "acorn",
+    "name": "acorn",
+    "version": "8.19.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "picocolors",
+    "name": "picocolors",
+    "version": "1.1.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "hasown",
+    "name": "hasown",
+    "version": "2.0.4",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 1
+  },
+  {
+    "spec": "json5",
+    "name": "json5",
+    "version": "2.2.3",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "resolve",
+    "name": "resolve",
+    "version": "1.22.13",
+    "isRoot": false,
+    "dev": false,
+    "direct": 4,
+    "transitive": 6
+  },
+  {
+    "spec": "path-exists",
+    "name": "path-exists",
+    "version": "5.0.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "undici",
+    "name": "undici",
+    "version": "8.12.3",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "function-bind",
+    "name": "function-bind",
+    "version": "1.1.2",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "estraverse",
+    "name": "estraverse",
+    "version": "5.3.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "fs-extra",
+    "name": "fs-extra",
+    "version": "11.4.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 3,
+    "transitive": 3
+  },
+  {
+    "spec": "inherits",
+    "name": "inherits",
+    "version": "2.0.4",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "graceful-fs",
+    "name": "graceful-fs",
+    "version": "4.2.11",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "get-stream",
+    "name": "get-stream",
+    "version": "9.0.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 2,
+    "transitive": 2
+  },
+  {
+    "spec": "node-fetch",
+    "name": "node-fetch",
+    "version": "3.3.2",
+    "isRoot": false,
+    "dev": false,
+    "direct": 3,
+    "transitive": 5
+  },
+  {
+    "spec": "vite",
+    "name": "vite",
+    "version": "8.3.5",
+    "isRoot": false,
+    "dev": false,
+    "direct": 6,
+    "transitive": 39
+  },
+  {
+    "spec": "react",
+    "name": "react",
+    "version": "19.3.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "qs",
+    "name": "qs",
+    "version": "6.16.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 2,
+    "transitive": 18
+  },
+  {
+    "spec": "dotenv",
+    "name": "dotenv",
+    "version": "18.0.9",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "react-dom",
+    "name": "react-dom",
+    "version": "19.3.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 1
+  },
+  {
+    "spec": "is-number",
+    "name": "is-number",
+    "version": "7.0.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "form-data",
+    "name": "form-data",
+    "version": "4.0.6",
+    "isRoot": false,
+    "dev": false,
+    "direct": 5,
+    "transitive": 19
+  },
+  {
+    "spec": "execa",
+    "name": "execa",
+    "version": "10.2.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 12,
+    "transitive": 17
+  },
+  {
+    "spec": "minimist",
+    "name": "minimist",
+    "version": "1.2.8",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "once",
+    "name": "once",
+    "version": "1.4.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 1
+  },
+  {
+    "spec": "braces",
+    "name": "braces",
+    "version": "3.0.3",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 3
+  },
+  {
+    "spec": "fill-range",
+    "name": "fill-range",
+    "version": "7.1.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 2
+  },
+  {
+    "spec": "esutils",
+    "name": "esutils",
+    "version": "2.0.3",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "to-regex-range",
+    "name": "to-regex-range",
+    "version": "5.0.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 1,
+    "transitive": 1
+  },
+  {
+    "spec": "micromatch",
+    "name": "micromatch",
+    "version": "4.0.8",
+    "isRoot": false,
+    "dev": false,
+    "direct": 2,
+    "transitive": 5
+  },
+  {
+    "spec": "eslint",
+    "name": "eslint",
+    "version": "10.13.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 30,
+    "transitive": 76
+  },
+  {
+    "spec": "lodash",
+    "name": "lodash",
+    "version": "4.18.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "rimraf",
+    "name": "rimraf",
+    "version": "6.1.3",
+    "isRoot": false,
+    "dev": false,
+    "direct": 2,
+    "transitive": 8
+  },
+  {
+    "spec": "concat-map",
+    "name": "concat-map",
+    "version": "0.0.2",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "body-parser",
+    "name": "body-parser",
+    "version": "2.4.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 9,
+    "transitive": 39
+  },
+  {
+    "spec": "express",
+    "name": "express",
+    "version": "5.3.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 28,
+    "transitive": 64
+  },
+  {
+    "spec": "prettier",
+    "name": "prettier",
+    "version": "3.9.10",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "mkdirp",
+    "name": "mkdirp",
+    "version": "3.0.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "axios",
+    "name": "axios",
+    "version": "1.20.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 4,
+    "transitive": 26
+  },
+  {
+    "spec": "kind-of",
+    "name": "kind-of",
+    "version": "6.0.3",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "follow-redirects",
+    "name": "follow-redirects",
+    "version": "1.16.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "core-util-is",
+    "name": "core-util-is",
+    "version": "1.0.3",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "date-fns",
+    "name": "date-fns",
+    "version": "4.4.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "tar",
+    "name": "tar",
+    "version": "7.5.22",
+    "isRoot": false,
+    "dev": false,
+    "direct": 5,
+    "transitive": 5
+  },
+  {
+    "spec": "dayjs",
+    "name": "dayjs",
+    "version": "1.11.23",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "next",
+    "name": "next",
+    "version": "16.4.3",
+    "isRoot": false,
+    "dev": false,
+    "direct": 15,
+    "transitive": 50
+  },
+  {
+    "spec": "webpack",
+    "name": "webpack",
+    "version": "5.112.2",
+    "isRoot": false,
+    "dev": false,
+    "direct": 17,
+    "transitive": 62
+  },
+  {
+    "spec": "jest",
+    "name": "jest",
+    "version": "30.5.2",
+    "isRoot": false,
+    "dev": false,
+    "direct": 4,
+    "transitive": 315
+  },
+  {
+    "spec": "moment",
+    "name": "moment",
+    "version": "2.31.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "classnames",
+    "name": "classnames",
+    "version": "2.5.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 0,
+    "transitive": 0
+  },
+  {
+    "spec": "vue",
+    "name": "vue",
+    "version": "3.5.44",
+    "isRoot": false,
+    "dev": false,
+    "direct": 5,
+    "transitive": 22
+  }
+]
