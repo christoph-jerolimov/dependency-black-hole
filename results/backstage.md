@@ -6,16 +6,17 @@ The package list comes from the [backstage/versions](https://github.com/backstag
 
 ## Summary
 
-- **204** packages analyzed
+- **214** packages analyzed
 - **4** (2 %) have **zero** dependencies
-- average **280** and median **174** total (direct + indirect) dependencies
-- biggest tree: **@backstage/cli-defaults@0.1.7** with **1254** total dependencies (16 direct)
-- 11 package(s) could not be analyzed: @backstage/cli@0.36.7, @backstage/cli-module-test-jest@0.1.7, @backstage/core-compat-api@0.5.16, @backstage/frontend-defaults@0.5.7, @backstage/frontend-test-utils@0.6.5, @backstage/test-utils@1.7.23, @backstage/plugin-api-docs-module-protoc-gen-doc@0.1.11, @backstage/plugin-catalog-react@3.3.0, @backstage/plugin-mui-to-bui@0.2.12, @backstage/plugin-scaffolder-react@2.1.1, @backstage/plugin-techdocs-addons-test-utils@2.0.10
+- average **290** and median **195** total (direct + indirect) dependencies
+- biggest tree: **@backstage/cli@0.36.7** with **1355** total dependencies (32 direct)
+- 1 package(s) could not be analyzed: @backstage/plugin-api-docs-module-protoc-gen-doc@0.1.11
 
 ## Results
 
 | package                                                            | version | direct | direct + indirect |
 |--------------------------------------------------------------------|---------|-------:|------------------:|
+| @backstage/cli                                                     | 0.36.7  |     32 |             1,355 |
 | @backstage/cli-defaults                                            | 0.1.7   |     16 |             1,254 |
 | @backstage/plugin-scaffolder-backend-module-yeoman                 | 0.4.27  |      6 |             1,032 |
 | @backstage/plugin-api-docs                                         | 0.14.6  |     20 |             1,003 |
@@ -38,6 +39,7 @@ The package list comes from the [backstage/versions](https://github.com/backstag
 | @backstage/plugin-catalog                                          | 2.0.10  |     34 |               577 |
 | @backstage/plugin-devtools                                         | 0.1.44  |     15 |               567 |
 | @backstage/plugin-org                                              | 0.8.0   |     17 |               549 |
+| @backstage/plugin-scaffolder-react                                 | 2.1.1   |     38 |               548 |
 | @backstage/plugin-catalog-graph                                    | 0.6.9   |     17 |               546 |
 | @backstage/plugin-home                                             | 0.9.11  |     24 |               546 |
 | @backstage/plugin-catalog-unprocessed-entities                     | 0.2.36  |     10 |               536 |
@@ -45,6 +47,7 @@ The package list comes from the [backstage/versions](https://github.com/backstag
 | @backstage/plugin-notifications                                    | 0.6.1   |     15 |               534 |
 | @backstage/frontend-dev-utils                                      | 0.1.7   |      4 |               527 |
 | @backstage/frontend-app-api                                        | 0.16.9  |     10 |               526 |
+| @backstage/plugin-techdocs-addons-test-utils                       | 2.0.10  |     10 |               526 |
 | @backstage/plugin-home-react                                       | 0.1.43  |      7 |               525 |
 | @backstage/plugin-user-settings                                    | 0.9.8   |     18 |               525 |
 | @backstage/dev-utils                                               | 1.1.28  |     12 |               524 |
@@ -52,9 +55,13 @@ The package list comes from the [backstage/versions](https://github.com/backstag
 | @backstage/plugin-scaffolder-backend                               | 4.2.1   |     33 |               518 |
 | @backstage/plugin-catalog-import                                   | 0.13.19 |     23 |               517 |
 | @backstage/plugin-org-react                                        | 0.1.55  |      9 |               517 |
+| @backstage/core-compat-api                                         | 0.5.16  |     10 |               505 |
+| @backstage/plugin-catalog-react                                    | 3.3.0   |     29 |               505 |
 | @backstage/plugin-search-backend-module-techdocs                   | 0.4.19  |     12 |               503 |
 | @backstage/plugin-app                                              | 0.5.4   |     27 |               502 |
 | @backstage/plugin-techdocs-module-addons-contrib                   | 1.1.41  |     11 |               502 |
+| @backstage/frontend-test-utils                                     | 0.6.5   |     18 |               501 |
+| @backstage/frontend-defaults                                       | 0.5.7   |      7 |               499 |
 | @backstage/plugin-techdocs-backend                                 | 2.4.0   |     16 |               497 |
 | @backstage/plugin-techdocs-node                                    | 2.1.0   |     29 |               493 |
 | @backstage/plugin-kubernetes-react                                 | 0.6.1   |     21 |               472 |
@@ -117,6 +124,8 @@ The package list comes from the [backstage/versions](https://github.com/backstag
 | @backstage/plugin-catalog-backend-module-msgraph                   | 0.10.7  |     10 |               202 |
 | @backstage/plugin-mcp-actions-backend                              | 0.2.3   |     12 |               200 |
 | @backstage/plugin-app-node                                         | 0.1.50  |      5 |               195 |
+| @backstage/cli-module-test-jest                                    | 0.1.7   |     11 |               194 |
+| @backstage/test-utils                                              | 1.7.23  |     12 |               182 |
 | @backstage/plugin-events-backend-module-aws-sqs                    | 0.4.27  |      6 |               178 |
 | @backstage/plugin-auth-backend-module-google-provider              | 0.3.20  |      5 |               174 |
 | @backstage/plugin-auth-backend-module-auth0-provider               | 0.4.6   |      9 |               172 |
@@ -185,6 +194,7 @@ The package list comes from the [backstage/versions](https://github.com/backstag
 | @backstage/plugin-bitbucket-cloud-common                           | 0.3.14  |      2 |               120 |
 | @backstage/integration                                             | 2.1.3   |     12 |               119 |
 | @backstage/plugin-kubernetes-common                                | 0.9.14  |      7 |               112 |
+| @backstage/plugin-mui-to-bui                                       | 0.2.12  |      6 |               112 |
 | @backstage/theme                                                   | 0.7.3   |      3 |                83 |
 | @backstage/create-app                                              | 0.9.3   |      8 |                77 |
 | @backstage/core-app-api                                            | 1.20.6  |     13 |                75 |

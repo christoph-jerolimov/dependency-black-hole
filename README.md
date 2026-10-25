@@ -20,7 +20,16 @@ This repo contains:
    `yarn.lock`, on any published npm package, on the ~100 most downloaded npm
    packages, and on all [Backstage](https://backstage.io) packages.
 3. **Results** of our own analysis: [results/top-100.md](results/top-100.md)
-   and [results/backstage.md](results/backstage.md).
+   and [results/backstage.md](results/backstage.md). Headline findings
+   (October 2026):
+   - Of the **100 most downloaded npm packages**, **53 have zero
+     dependencies** (median: 0) — the most-downloaded packages *are* the
+     micro-dependencies everyone else pulls in. The big exception is
+     `jest`: 4 direct dependencies explode into **315** total packages.
+   - Of the **214 analyzed Backstage packages** (release 1.56.2) only 2 %
+     are dependency-free; the **median package pulls in 195 packages** and
+     `@backstage/cli` tops out at **1,355** total dependencies from 32
+     direct ones — a textbook dependency black hole.
 
 ## Research
 

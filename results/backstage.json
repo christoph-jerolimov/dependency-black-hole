@@ -1,5 +1,14 @@
 [
   {
+    "spec": "@backstage/cli@0.36.7",
+    "name": "@backstage/cli",
+    "version": "0.36.7",
+    "isRoot": false,
+    "dev": false,
+    "direct": 32,
+    "transitive": 1355
+  },
+  {
     "spec": "@backstage/cli-defaults@0.1.7",
     "name": "@backstage/cli-defaults",
     "version": "0.1.7",
@@ -198,6 +207,15 @@
     "transitive": 549
   },
   {
+    "spec": "@backstage/plugin-scaffolder-react@2.1.1",
+    "name": "@backstage/plugin-scaffolder-react",
+    "version": "2.1.1",
+    "isRoot": false,
+    "dev": false,
+    "direct": 38,
+    "transitive": 548
+  },
+  {
     "spec": "@backstage/plugin-catalog-graph@0.6.9",
     "name": "@backstage/plugin-catalog-graph",
     "version": "0.6.9",
@@ -255,6 +273,15 @@
     "spec": "@backstage/frontend-app-api@0.16.9",
     "name": "@backstage/frontend-app-api",
     "version": "0.16.9",
+    "isRoot": false,
+    "dev": false,
+    "direct": 10,
+    "transitive": 526
+  },
+  {
+    "spec": "@backstage/plugin-techdocs-addons-test-utils@2.0.10",
+    "name": "@backstage/plugin-techdocs-addons-test-utils",
+    "version": "2.0.10",
     "isRoot": false,
     "dev": false,
     "direct": 10,
@@ -324,6 +351,24 @@
     "transitive": 517
   },
   {
+    "spec": "@backstage/core-compat-api@0.5.16",
+    "name": "@backstage/core-compat-api",
+    "version": "0.5.16",
+    "isRoot": false,
+    "dev": false,
+    "direct": 10,
+    "transitive": 505
+  },
+  {
+    "spec": "@backstage/plugin-catalog-react@3.3.0",
+    "name": "@backstage/plugin-catalog-react",
+    "version": "3.3.0",
+    "isRoot": false,
+    "dev": false,
+    "direct": 29,
+    "transitive": 505
+  },
+  {
     "spec": "@backstage/plugin-search-backend-module-techdocs@0.4.19",
     "name": "@backstage/plugin-search-backend-module-techdocs",
     "version": "0.4.19",
@@ -349,6 +394,24 @@
     "dev": false,
     "direct": 11,
     "transitive": 502
+  },
+  {
+    "spec": "@backstage/frontend-test-utils@0.6.5",
+    "name": "@backstage/frontend-test-utils",
+    "version": "0.6.5",
+    "isRoot": false,
+    "dev": false,
+    "direct": 18,
+    "transitive": 501
+  },
+  {
+    "spec": "@backstage/frontend-defaults@0.5.7",
+    "name": "@backstage/frontend-defaults",
+    "version": "0.5.7",
+    "isRoot": false,
+    "dev": false,
+    "direct": 7,
+    "transitive": 499
   },
   {
     "spec": "@backstage/plugin-techdocs-backend@2.4.0",
@@ -907,6 +970,24 @@
     "dev": false,
     "direct": 5,
     "transitive": 195
+  },
+  {
+    "spec": "@backstage/cli-module-test-jest@0.1.7",
+    "name": "@backstage/cli-module-test-jest",
+    "version": "0.1.7",
+    "isRoot": false,
+    "dev": false,
+    "direct": 11,
+    "transitive": 194
+  },
+  {
+    "spec": "@backstage/test-utils@1.7.23",
+    "name": "@backstage/test-utils",
+    "version": "1.7.23",
+    "isRoot": false,
+    "dev": false,
+    "direct": 12,
+    "transitive": 182
   },
   {
     "spec": "@backstage/plugin-events-backend-module-aws-sqs@0.4.27",
@@ -1521,6 +1602,15 @@
     "transitive": 112
   },
   {
+    "spec": "@backstage/plugin-mui-to-bui@0.2.12",
+    "name": "@backstage/plugin-mui-to-bui",
+    "version": "0.2.12",
+    "isRoot": false,
+    "dev": false,
+    "direct": 6,
+    "transitive": 112
+  },
+  {
     "spec": "@backstage/theme@0.7.3",
     "name": "@backstage/theme",
     "version": "0.7.3",
@@ -1809,56 +1899,6 @@
     "transitive": 0
   },
   {
-    "spec": "@backstage/cli@0.36.7",
-    "name": "@backstage/cli",
-    "version": "?",
-    "isRoot": false,
-    "dev": false,
-    "direct": 0,
-    "transitive": 0,
-    "error": "Command failed: npm install @backstage/cli@0.36.7 --package-lock-only --ignore-scripts --no-audit --no-fund --loglevel=error"
-  },
-  {
-    "spec": "@backstage/cli-module-test-jest@0.1.7",
-    "name": "@backstage/cli-module-test-jest",
-    "version": "?",
-    "isRoot": false,
-    "dev": false,
-    "direct": 0,
-    "transitive": 0,
-    "error": "Command failed: npm install @backstage/cli-module-test-jest@0.1.7 --package-lock-only --ignore-scripts --no-audit --no-fund --loglevel=error"
-  },
-  {
-    "spec": "@backstage/core-compat-api@0.5.16",
-    "name": "@backstage/core-compat-api",
-    "version": "?",
-    "isRoot": false,
-    "dev": false,
-    "direct": 0,
-    "transitive": 0,
-    "error": "Command failed: npm install @backstage/core-compat-api@0.5.16 --package-lock-only --ignore-scripts --no-audit --no-fund --loglevel=error"
-  },
-  {
-    "spec": "@backstage/frontend-defaults@0.5.7",
-    "name": "@backstage/frontend-defaults",
-    "version": "?",
-    "isRoot": false,
-    "dev": false,
-    "direct": 0,
-    "transitive": 0,
-    "error": "Command failed: npm install @backstage/frontend-defaults@0.5.7 --package-lock-only --ignore-scripts --no-audit --no-fund --loglevel=error"
-  },
-  {
-    "spec": "@backstage/frontend-test-utils@0.6.5",
-    "name": "@backstage/frontend-test-utils",
-    "version": "?",
-    "isRoot": false,
-    "dev": false,
-    "direct": 0,
-    "transitive": 0,
-    "error": "Command failed: npm install @backstage/frontend-test-utils@0.6.5 --package-lock-only --ignore-scripts --no-audit --no-fund --loglevel=error"
-  },
-  {
     "spec": "@backstage/release-manifests@0.0.15",
     "name": "@backstage/release-manifests",
     "version": "0.0.15",
@@ -1866,16 +1906,6 @@
     "dev": false,
     "direct": 0,
     "transitive": 0
-  },
-  {
-    "spec": "@backstage/test-utils@1.7.23",
-    "name": "@backstage/test-utils",
-    "version": "?",
-    "isRoot": false,
-    "dev": false,
-    "direct": 0,
-    "transitive": 0,
-    "error": "Command failed: npm install @backstage/test-utils@1.7.23 --package-lock-only --ignore-scripts --no-audit --no-fund --loglevel=error"
   },
   {
     "spec": "@backstage/types@1.2.2",
@@ -1903,46 +1933,6 @@
     "dev": false,
     "direct": 0,
     "transitive": 0,
-    "error": "Command failed: npm install @backstage/plugin-api-docs-module-protoc-gen-doc@0.1.11 --package-lock-only --ignore-scripts --no-audit --no-fund --loglevel=error"
-  },
-  {
-    "spec": "@backstage/plugin-catalog-react@3.3.0",
-    "name": "@backstage/plugin-catalog-react",
-    "version": "?",
-    "isRoot": false,
-    "dev": false,
-    "direct": 0,
-    "transitive": 0,
-    "error": "Command failed: npm install @backstage/plugin-catalog-react@3.3.0 --package-lock-only --ignore-scripts --no-audit --no-fund --loglevel=error"
-  },
-  {
-    "spec": "@backstage/plugin-mui-to-bui@0.2.12",
-    "name": "@backstage/plugin-mui-to-bui",
-    "version": "?",
-    "isRoot": false,
-    "dev": false,
-    "direct": 0,
-    "transitive": 0,
-    "error": "Command failed: npm install @backstage/plugin-mui-to-bui@0.2.12 --package-lock-only --ignore-scripts --no-audit --no-fund --loglevel=error"
-  },
-  {
-    "spec": "@backstage/plugin-scaffolder-react@2.1.1",
-    "name": "@backstage/plugin-scaffolder-react",
-    "version": "?",
-    "isRoot": false,
-    "dev": false,
-    "direct": 0,
-    "transitive": 0,
-    "error": "Command failed: npm install @backstage/plugin-scaffolder-react@2.1.1 --package-lock-only --ignore-scripts --no-audit --no-fund --loglevel=error"
-  },
-  {
-    "spec": "@backstage/plugin-techdocs-addons-test-utils@2.0.10",
-    "name": "@backstage/plugin-techdocs-addons-test-utils",
-    "version": "?",
-    "isRoot": false,
-    "dev": false,
-    "direct": 0,
-    "transitive": 0,
-    "error": "Command failed: npm install @backstage/plugin-techdocs-addons-test-utils@2.0.10 --package-lock-only --ignore-scripts --no-audit --no-fund --loglevel=error"
+    "error": "Command failed: npm install @backstage/plugin-api-docs-module-protoc-gen-doc@0.1.11 --package-lock-only --ignore-scripts --no-audit --no-fund --loglevel=error --legacy-peer-deps"
   }
 ]
