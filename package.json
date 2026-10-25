@@ -1,0 +1,22 @@
+{
+  "name": "dependency-black-hole",
+  "version": "1.0.0",
+  "description": "Research and tooling around npm's transitive dependency problem: analyze package-lock.json / yarn.lock files and count direct and transitive dependencies per package.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "analyze:lockfile": "node src/analyze-lockfile.ts",
+    "analyze:package": "node src/analyze-package.ts",
+    "analyze:top100": "node src/analyze-top100.ts",
+    "analyze:backstage": "node src/analyze-backstage.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.0"
+  }
+}
